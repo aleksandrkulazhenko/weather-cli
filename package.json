@@ -1,0 +1,27 @@
+{
+  "name": "weather-cli",
+  "version": "1.0.0",
+  "description": "weather CLI",
+  "bin": "./index.js",
+  "keywords": [
+    "cli",
+    "weather"
+  ],
+  "license": "ISC",
+  "author": "Aleksandr Kulazhenko",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "homepage": "https://alexkulazhenko.by",
+  "repository": {
+    "type": "git",
+    "url": "https://alexkulazhenko.by"
+  },
+  "bugs": {
+    "url": "https://alexkulazhenko.by",
+    "email": "aleksandrkulazhenko@icloud.com"
+  }
+}
