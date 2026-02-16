@@ -5,7 +5,7 @@ import { saveKeyValue } from "./service/storageService.js";
 
 const saveToken = async (token) => {
     try {
-        await saveKeyValue('token', args.t);
+        await saveKeyValue('token', token);
         printSuccess('Токен сохранен');
     } catch (error) {
         printError(error.message);
